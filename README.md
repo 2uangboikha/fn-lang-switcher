@@ -1,3 +1,27 @@
+# prequisite
+```bash
+git clone https://github.com/norflin321/input-source-switcher.git
+cd input-source-switcher
+mkdir build && cd build
+cmake ..
+make
+make install
+```
+
+
+
+# to install
+add python bin and zsh to both these places 
+![setup](image.png)
+
+
+```bash
+chmod +x install.sh
+. ./install.sh
+```
+
+
+
 # THE PROBLEM:
 ![ezgif-5-86271457e6](https://user-images.githubusercontent.com/33498670/167284292-2fe06593-0e47-4c7e-8086-8abd2237466c.gif)
 
@@ -60,4 +84,6 @@ P.S. Don't forget to reinstall `pynput` after upgrades. Also see [issue #2](http
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 # RESULT:
 You can toggle input source with "fn" button, but without showing the pop up!
+
+
 
